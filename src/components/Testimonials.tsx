@@ -27,6 +27,20 @@ const Testimonials: React.FC = () => {
       quote: 'As a recent graduate with student loan debt, I was struggling with my credit. Credition helped me establish a solid credit history and improve my score significantly.',
       rating: 4,
     },
+    {
+      name: 'Elviz Aliyev',
+      role: 'Uber Driver',
+      image: 'https://images.pexels.com/photos/73323/pexels-photo-73323.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      quote: 'As a full-time Uber driver, my income can be unpredictable, and my credit took a big hit during slow months. Thanks to Credition, I was able to remove old collections and raise my score by over 100 points! Now I finally qualified for a new car loan with a low interest rate. Highly recommend',
+      rating: 5,
+      
+    },
+    {
+      name: 'Ramin Djavadov',
+      role: 'Chef man',
+      image: 'https://images.pexels.com/photos/733858/pexels-photo-733858.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      quote: 'As a full-time Uber driver, my income can be unpredictable, and my credit took a big hit during slow months. Thanks to Credition, I was able to remove old collections and raise my score by over 100 points! Now I finally qualified for a new car loan with a low interest rate. Highly recommend',
+      rating: 5,
   ];
 
   const [current, setCurrent] = useState(0);
