@@ -14,8 +14,8 @@ jobs:
             -H "Authorization: Bearer ${{ secrets.RESEND_API_KEY }}" \
             -H "Content-Type: application/json" \
             -d '{
-              "from": "Your Name <hello@yourdomain.com>",
+              "from": "Credition Finance <info@credition.us>",
               "to": ["recipient@example.com"],
-              "subject": "Test Email from GitHub",
+              "subject": "Request for free consultation",
               "html": "<strong>Hello from GitHub + Resend!</strong>"
             }'
